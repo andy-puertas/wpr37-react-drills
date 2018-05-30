@@ -9,13 +9,14 @@ class App extends Component {
     }
   }
 
-  handleChange(val){
+  handleChange(value){
     this.setState({
       userInput: value
     })
   }
   
   render() {
+    console.log(this.state)
     return (
       <div className="App">
       <h1>Input Box</h1>
